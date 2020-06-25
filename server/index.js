@@ -24,8 +24,10 @@ async function start () {
   app.use(nuxt.render)
 
   // Listen the server
-  app.listen(port, host)
+  // app.listen(port, host) // host 원하는 ip로 변경하면 된다.
+  app.listen(port, '192.168.10.113')
   consola.ready({
+    // message: `Server listening on http://${host}:${port}`,
     message: `Server listening on http://${host}:${port}`,
     badge: true
   })

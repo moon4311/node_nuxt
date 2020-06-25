@@ -2,12 +2,13 @@
   <div class="container">
     <div>
       <logo />
+      <h1 class="title">
+        node_nuxt
+      </h1>
+      <h2 class="subtitle">
+        여기도 바꿔보고 
+      </h2>
       <img :src="imgSrc" height="250px">
-      <div>
-      <p>아이디 : <input type="text" v-model="usrId"></p>
-      <p>패스워드 : <input type="text" v-model="usrPswd"></p>
-      {{usrId}} {{usrPswd}}
-      </div>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -36,7 +37,7 @@ export default {
     Logo
   },
   data (){
-    return {imgSrc : '/test.jpg',usrId: '', usrPswd : ''}
+    return {test : '퇴근은 칼퇴가 답이다.', imgSrc : '/test.jpg'}
   } 
 }
 </script>
