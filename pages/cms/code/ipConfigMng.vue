@@ -36,8 +36,7 @@ export default {
   head : {
     title : '접근허용IP설정'
   },
-  layout: 'top',
-  
+  layout: 'cms',
   components: {
     Logo
   }

@@ -9,6 +9,7 @@
       {{usrId}} {{usrPswd}}
       </div>
       <div class="links">
+        <nuxt-link to="/cms/">CMS</nuxt-link>
         <a
           href="https://nuxtjs.org/"
           target="_blank"

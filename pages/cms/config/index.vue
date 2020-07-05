@@ -36,6 +36,7 @@ export default {
   head : {
     title : '환경설정'
   },
+  layout: 'cms',
   components: {
     Logo
   }

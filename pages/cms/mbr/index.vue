@@ -36,6 +36,7 @@ export default {
   head : {
     title : '회원관리'
   },
+  layout: 'cms',
   components: {
     Logo
   }

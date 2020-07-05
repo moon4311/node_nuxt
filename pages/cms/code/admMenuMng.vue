@@ -36,7 +36,7 @@ export default {
   head : {
     title : '관리자메뉴관리'
   },
-  layout: 'top',
+  layout: 'cms',
   
   components: {
     Logo

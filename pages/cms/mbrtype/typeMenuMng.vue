@@ -36,6 +36,7 @@ export default {
   head : {
     title : '그룹별권한관리'
   },
+  layout: 'cms',
   components: {
     Logo
   }

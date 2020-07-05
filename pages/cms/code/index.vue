@@ -38,11 +38,10 @@ export default {
   head : {
     title : '공통코드 관리'
   },
-
+  layout: 'cms',
   components: {
     Logo
-  },
-  layout: 'top'
+  }
 }
 </script>
 

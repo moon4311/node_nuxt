@@ -7,20 +7,20 @@
       <div class="utilWrap">
         <div class="login_state">
           <div class="login_state_text">
-            <strong>{userNm}님</strong>이 로그인 하셨습니다.
+            <strong>{{userNm}}님</strong>이 로그인 하셨습니다.
           </div>
         </div>
 
         <ul class="utilList">
-          <li><a href="/vst/main.do">home</a></li>
-          <li><a href="/cms/logout.do">logout</a></li>
-          <li><a href="/cms/">admin</a></li>
+          <li><nuxt-link to="/vst/main.do">home</nuxt-link></li>
+          <li><nuxt-link to="/cms/logout.do">logout</nuxt-link></li>
+          <li><nuxt-link to="/cms/">admin</nuxt-link></li>
         </ul>
       </div>
     </div>
 
   <div class="popAlert noticePop" style="display:none;">
-    <h2>공지사항 알림</h2>
+    <h2>공지사항 알림ㄱ</h2>
     <h3 id="popTitle" style="text-align: center; font-weight: bold;"></h3>
     <div id="popTime" class="popupArea">새로운 공지사항이 등록되었습니다</div>
     <div class="btnWrap">
@@ -30,7 +30,7 @@
     <a class="pop-close" href="#none">닫기</a>
   </div>
 </header>
-    <nuxt/>
+    <nuxt />
   </div>
 </template>
 <script>
